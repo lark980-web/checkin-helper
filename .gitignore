@@ -1,0 +1,21 @@
+# 构建产物
+build-manual/
+app/build/
+*.apk
+
+# 签名密钥(构建脚本会自动生成, 不入库)
+*.keystore
+*.jks
+# 签名口令(本地随机生成, 不入库)
+signing/.storepass
+
+# 本地 SDK 路径(每台机器不同)
+local.properties
+
+# Gradle 缓存
+.gradle/
+build/
+
+# 系统文件
+.DS_Store
+Thumbs.db
